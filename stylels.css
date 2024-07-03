@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0ABAB5; /* Tiffany blue background */
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.auth-container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.company-name {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #0ABAB5; /* Tiffany blue text color */
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    background-color: #0ABAB5;
+    border-color: #0ABAB5;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #088d8b;
+    border-color: #088d8b;
+}
+
+a {
+    display: block;
+    margin-top: 1rem;
+    color: #0ABAB5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
