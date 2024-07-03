@@ -18,6 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             $_SESSION['user_id'] = $user['user_id'];
             $_SESSION['email'] = $user['email'];
             $_SESSION['is_service_provider'] = $user['is_service_provider'];
+            $_SESSION['name'] = $user['name'];
             header('Location: home.php');
         } else {
             echo "Invalid password.";
