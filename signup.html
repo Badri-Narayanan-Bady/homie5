@@ -6,7 +6,25 @@
     <title>Sign Up</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css"> <!-- Link to custom CSS file -->
+    <style>
+        body {
+            background-color: #A0E7E5; /* Tiffany blue background */
+            font-family: 'Roboto', sans-serif;
+        }
+        .auth-container {
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .company-name {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
 <body>
     <div class="auth-container">
@@ -46,11 +64,12 @@
             <button type="submit" class="btn btn-primary">Sign up</button>
         </form>
         <a href="login.html">Already have an account? Login</a>
-        <script>
-            document.getElementById('is_service_provider').onchange = function() {
-                document.getElementById('provider-fields').style.display = this.checked ? 'block' : 'none';
-            };
-        </script>
     </div>
+    <script>
+        document.getElementById('is_service_provider').onchange = function() {
+            document.getElementById('provider-fields').style.display = this.checked ? 'block' : 'none';
+        };
+    </script>
 </body>
 </html>
+
